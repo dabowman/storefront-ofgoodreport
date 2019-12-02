@@ -1,0 +1,60 @@
+@include susy-media($desktop) {
+  .woocommerce-active {
+    .site-header {
+      .site-branding {
+        @include span(6 of 12);
+      }
+
+      .site-search {
+        @include span(last 6 of 12);
+        clear: none;
+      }
+
+      .main-navigation {
+        @include span(9 of 12);
+        clear: both;
+      }
+
+      .site-header-cart {
+        @include span(last 3 of 12);
+        margin-bottom: 0;
+      }
+    }
+  }
+  .col-full {
+    padding: 0 ms(1);
+  }
+  .site-branding,
+  .site-search,
+  .site-header-cart,
+  .site-logo-anchor,
+  .site-logo-link,
+  .custom-logo-link {
+    margin-bottom: .5em;
+  }
+  .main-navigation {
+    ul.menu,
+    ul.nav-menu {
+      margin-left: -.5em;
+      > li {
+        // The first level menu item
+        > a {
+          padding: .5em;
+        }
+      }
+    }
+  }
+  .site-header-cart .cart-contents {
+    padding: .5em 0;
+  }
+}
+@include susy-media (max-width $container-width) {
+	.col-full {
+		margin-left: ms(1);
+		margin-right: ms(1);
+		padding: 0;
+	}
+}
+@include susy-media (max-width $handheld) {
+
+}

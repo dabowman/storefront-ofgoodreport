@@ -1,0 +1,39 @@
+.site-header {
+	background-color: #ffffff;
+	padding-top: ms(1);
+	padding-bottom: ms(1);
+	border-bottom: 1px solid black;
+  .site-logo-anchor,
+	.site-logo-link,
+	.custom-logo-link {
+		img {
+			max-height: 48px;
+      max-width: 100%;
+      width: auto;
+		}
+
+  }
+}
+
+input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='tel'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+textarea,
+.input-text {
+	// padding: ms(-2);
+	background-color: $body-background;
+	color: $color_body;
+	border: 1px solid rgba( 0, 0, 0, 0.5 );
+	// -webkit-appearance: none;
+	// box-sizing: border-box;
+	// font-weight: normal;
+	box-shadow:none;
+
+	&:focus {
+		background-color: $color_ogr_taupe;
+	}
+}

@@ -52,22 +52,22 @@ textarea,
 @media (min-width: 768px) {
   .woocommerce-active .site-header .site-branding {
     width: 47.8260869565%;
-    float: left;
-    margin-right: 4.347826087%; }
+    float: right;
+    margin-left: 4.347826087%; }
   .woocommerce-active .site-header .site-search {
     width: 47.8260869565%;
-    float: right;
-    margin-right: 0;
+    float: left;
+    margin-left: 0;
     clear: none; }
   .woocommerce-active .site-header .main-navigation {
     width: 73.9130434783%;
-    float: left;
-    margin-right: 4.347826087%;
+    float: right;
+    margin-left: 4.347826087%;
     clear: both; }
   .woocommerce-active .site-header .site-header-cart {
     width: 21.7391304348%;
-    float: right;
-    margin-right: 0;
+    float: left;
+    margin-left: 0;
     margin-bottom: 0; }
   .col-full {
     padding: 0 1em; }
@@ -80,7 +80,7 @@ textarea,
     margin-bottom: .5em; }
   .main-navigation ul.menu,
   .main-navigation ul.nav-menu {
-    margin-left: -.5em; }
+    margin-right: -.5em; }
     .main-navigation ul.menu > li > a,
     .main-navigation ul.nav-menu > li > a {
       padding: .5em; }
@@ -89,6 +89,6 @@ textarea,
 
 @media (max-width: 66.4989378333em) {
   .col-full {
-    margin-left: 1em;
     margin-right: 1em;
+    margin-left: 1em;
     padding: 0; } }

@@ -15,5 +15,20 @@ License URI:    http://www.gnu.org/licenses/gpl-2.0.html
 -------------------------------------------------------------- */
 @import 'bourbon';
 @import 'susy';
-@import '../storefront/assets/css/sass/utils/variables';
-@import '../storefront/assets/css/sass/vendors/font-awesome/variables';
+@import '../storefront-master/assets/css/sass/vendors/modular-scale';
+@import '../storefront-master/assets/css/sass/vendors/font-awesome/variables';
+@import '../storefront-master/assets/css/sass/utils/variables';
+/* Global Variable Overrides
+-------------------------------------------------------------- */
+// $color_body:        #43454b;
+// $color_links:       #2c2d33;
+// $color_border:      rgba( 0, 0, 0, 0.05 );
+$color_woocommerce: #6fc5a3;
+// $error:             #e2401c;
+// $success:           #0f834d;
+// $info:              #3d9cd2;
+$color_ogr_taupe: #e8ece1;
+$color_ogr_light_grey: #e5e5e5;
+
+@import 'assets/css/base/_base';
+@import 'assets/css/base/_layout';
